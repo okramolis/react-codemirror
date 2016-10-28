@@ -1,6 +1,6 @@
 {
   "name": "react-codemirror-sql",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React component of codemirror-sql",
   "main": "lib/Codemirror.js",
   "author": "Ondrej Kramolis",
