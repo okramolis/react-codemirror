@@ -17,7 +17,7 @@ const CodeMirror = React.createClass({
 		value: React.PropTypes.string,
 	},
 	getCodeMirrorInstance () {
-		return this.props.codeMirrorInstance || require('codemirror');
+		return this.props.codeMirrorInstance || require('codemirror-sql');
 	},
 	getInitialState () {
 		return {

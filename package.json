@@ -1,21 +1,21 @@
 {
-  "name": "react-codemirror",
-  "version": "0.2.6",
-  "description": "Codemirror",
+  "name": "react-codemirror-sql",
+  "version": "0.0.1",
+  "description": "React component of codemirror-sql",
   "main": "lib/Codemirror.js",
-  "author": "Jed Watson",
+  "author": "Ondrej Kramolis",
   "license": "MIT",
-  "homepage": "https://github.com/JedWatson/react-codemirror",
+  "homepage": "https://github.com/okramolis/react-codemirror",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JedWatson/react-codemirror.git"
+    "url": "https://github.com/okramolis/react-codemirror.git"
   },
   "bugs": {
-    "url": "https://github.com/JedWatson/react-codemirror/issues"
+    "url": "https://github.com/okramolis/react-codemirror/issues"
   },
   "dependencies": {
     "classnames": "^2.2.5",
-    "codemirror": "^5.18.2",
+    "codemirror-sql": "*",
     "lodash.debounce": "^4.0.8"
   },
   "devDependencies": {
@@ -57,6 +57,7 @@
     "react",
     "react-component",
     "codemirror",
+    "sql",
     "editor",
     "code"
   ]
